@@ -48,10 +48,13 @@ function clearNavI(j) {
     const array = ["A","B","c"]
     for (let i = 0; i < array.length; i++) {
         const element = array[i];
-        console.log(element.toLowerCase())
+        //console.log(element.toLowerCase())
     }
 
     function clearNavID(j) {
         document.getElementById(j).remove()
         document.getElementById("b"+j).remove()
     }
+
+
+   
